@@ -75,4 +75,9 @@ I aim to leverage my skills in data science, machine learning, and web developme
 
 ## 📫 Let's Connect
 
-Feel free to reach out via [msaligs@gmail.com](mailto:msaligs@gmail.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/msaligs/).
+Feel free to reach out via [msaligs@gmail.com](mailto:msaligs@gmail.com)  
+Connect with me on [LinkedIn](https://www.linkedin.com/in/msaligs/)  
+Explore my work on [HackerRank](https://www.hackerrank.com/profile/Msaligs)  
+Check out my student profile at [IITM](https://ds.study.iitm.ac.in/student/21F2000901)  
+Discover my data science projects on [Kaggle](https://www.kaggle.com/msaligs)
+
