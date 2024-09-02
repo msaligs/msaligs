@@ -9,10 +9,8 @@ Hyderabad, India | [msaligs@gmail.com](mailto:msaligs@gmail.com)
 ## 👨‍🎓 Education
 
 - **IIT Madras** - BS in Data Science and Application (Expected Dec 2025)
-  - **GPA:** 8.38/10
-  - Relevant Coursework: Machine Learning Practice, Business Data Analysis, Application Development, DBMS, System Command
-
-- **Maulana Azad National Urdu University** - BTech in Computer Science (July 2020 - June 2024)
+  
+- **Maulana Azad National Urdu University** - BTech in Computer Science
 
 - **Aligarh Muslim University** - Diploma in Engineering (Electrical)
 
