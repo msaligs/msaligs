@@ -1,53 +1,105 @@
 # Hi, I'm Shahid 👋
 
-I work across AI, computer vision, automation, Linux, and infrastructure — building systems, debugging complexity, and understanding how things behave beneath the surface.
+**Computer Vision / ML Engineer** building real-time AI systems, video analytics pipelines, and production infrastructure.
 
-Most of my learning has come from experimentation:
-breaking workflows, reading logs, tracing failures, rebuilding ideas, and asking why systems behave the way they do.
+I enjoy working close to the system — from **computer vision models and GPU inference to distributed services, debugging, optimization, and deployment**.
 
-But my curiosity extends beyond machines.
-
-I’m equally interested in psychology, communication, language, and the patterns behind human behavior. I believe the most interesting problems exist where technology and people intersect.
+Most of my learning comes through building and breaking things: tracing failures, reading logs, profiling bottlenecks, experimenting with different approaches, and understanding **why a system behaves the way it does**.
 
 ---
 
-## What I Usually Work With
+## 🧠 What I Work With
 
-* AI & Computer Vision
-* Python & Automation
-* Linux & Infrastructure
-* APIs & Backend Systems
-* Dataset Engineering
-* System Debugging & Optimization
-* Developer Tooling
+- **Computer Vision & Deep Learning**
+  - Object Detection & Tracking
+  - OCR / Vision-Language Models
+  - ROI & spatial analytics
+  - Multi-camera video analytics
+  - Real-time inference
 
----
+- **AI / ML Engineering**
+  - Python
+  - OpenCV
+  - YOLO
+  - NVIDIA DeepStream
+  - TensorRT
+  - NumPy
 
-## Philosophy
+- **Backend & Distributed Systems**
+  - FastAPI
+  - Apache Kafka
+  - Redis
+  - REST APIs
+  - Concurrent processing
+  - Inter-process communication
 
-I care more about understanding than appearance.
-
-I like systems that are:
-
-* simple but powerful
-* observable
-* resilient under failure
-* designed with intent
-
-Whether it’s software or people, I’m fascinated by how systems evolve, adapt, and break.
-
----
-
-## Current Interests
-
-* AI Agents & Autonomous Workflows
-* Computer Vision Pipelines
-* Infrastructure & Reliability
-* Human-Centered Technology
-* Open Source Tooling
-* Behavioral Psychology & Communication
+- **Infrastructure & Deployment**
+  - Linux
+  - Docker / Docker Compose
+  - Kubernetes
+  - NVIDIA Container Toolkit
+  - MediaMTX
 
 ---
 
-> “I don’t just study machines.
-> I study systems — technical and human alike.”
+## What I've Built
+
+### Real-Time Airport Baggage Vision System
+
+A production computer vision platform processing **multi-camera airport CCTV streams** for baggage and ground-equipment analytics.
+
+The system combines:
+
+**RTSP → DeepStream → YOLO → Tracking → Kafka → OCR → Redis → Platform APIs**
+
+Some of the engineering challenges involved:
+
+- Multi-camera GPU inference with NVIDIA DeepStream
+- POSIX shared-memory IPC for high-throughput frame transfer
+- Object re-identification when tracker IDs change after occlusion
+- Domain-specific OCR parsing and character-level voting
+- Redis-backed stateful session management
+- Concurrent OCR processing using nested thread pools
+- Multi-session processing across overlapping camera views
+- Asynchronous video merging using Docker workers
+- Automatic configuration generation for large camera deployments
+
+The interesting part isn't just getting a model to work — it's making the **whole system reliable under real-world conditions**.
+
+---
+
+## How I Like to Engineer
+
+I care about systems that are:
+
+- **Simple where possible**
+- **Observable**
+- **Resilient to failure**
+- **Efficient under load**
+- **Easy to debug**
+- **Designed with clear intent**
+
+I’m particularly interested in the gap between a model that works in a notebook and a system that works **continuously in production**.
+
+---
+
+## Currently Exploring
+
+- AI Agents & autonomous workflows
+- Advanced Computer Vision
+- ML system design
+- Real-time inference optimization
+- Distributed video processing
+- Infrastructure & reliability
+- Open-source developer tooling
+- Human-centered technology
+
+---
+
+## Beyond Engineering
+
+I'm also interested in **psychology, communication, language, and human behavior**.
+
+I find the intersection between **technology and people** particularly interesting — how technical systems affect humans, and how understanding humans can lead to better technology.
+
+> **I don't just want to build systems that work. I want to understand why they work.**
