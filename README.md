@@ -1,4 +1,4 @@
-# Hi, I'm Shahid 👋
+# Hi, I'm Shahid 
 
 **Computer Vision / ML Engineer** building real-time AI systems, video analytics pipelines, and production infrastructure.
 
@@ -8,7 +8,7 @@ Most of my learning comes through building and breaking things: tracing failures
 
 ---
 
-## 🧠 What I Work With
+## What I Work With
 
 - **Computer Vision & Deep Learning**
   - Object Detection & Tracking
